@@ -192,8 +192,8 @@ plot_top_celltypes_per_cluster(adata, annotation_name="accordion",
 
 ![Entropy dot plot](images/entropy_dotplot.png)
 
-For any questions or issues please contact Gaia Faggin gaia.faggin@unitn.it
-
 
 Only the metrics actually present are drawn, so the figure adapts to having all
 of them, some, or none. `show_entropy=False` gives the dot plot alone.
+
+For any questions or issues please contact Gaia Faggin gaia.faggin@unitn.it
