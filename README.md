@@ -7,8 +7,8 @@
 **pycellmarkeraccordion** is the Python implementation of the Cell Marker
 Accordion (Busarello et al., Nature Communications, 2025). It annotates cell populations from the built-in Accordion database of
 marker genes, reports which markers and which candidate cell types drove each
-call, and quantifies how contested each call was through the **annotation
-entropy**.
+call.
+A new key feature of these new implementation is the use of entropy metrics to quantifies biological heterogeneity.
 
 ## Installation
 
