@@ -1,6 +1,6 @@
 # The Cell Marker Accordion — Python
 
-### Python package for automated annotation and interpretation of single-cell omics data.
+### Python package for automated annotation and interpretation of single-cell and spatial omics data.
 
 ## Overview
 
