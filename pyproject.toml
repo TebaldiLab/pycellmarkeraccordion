@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycellmarkeraccordion"
+version = "1.0.0"
+description = "The Cell Marker Accordion 2.0: An Entropy-Driven Framework for Interpretable Cell Type Annotation, Clustering, and Spatial Deconvolution"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scanpy",
+    "anndata",
+    "scikit-learn",
+    "polars",
+    "matplotlib",
+    "seaborn",
+    "networkx",
+    "obonet"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pycellmarkeraccordion = ["data/*.parquet", "data/*.obo"]
