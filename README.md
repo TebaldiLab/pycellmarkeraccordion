@@ -152,7 +152,7 @@ distribution of the candidates' weights, not at who the candidates are.
 entropies: they weight each pair of candidates by how far apart the two cell
 types actually are.
 
-| metric | distance between two cell types |
+| metric | range | distance between two cell types |
 |---|---|---|
 | `Ontology-sp-Rao` | 0–1 | shortest path on the Cell Ontology graph |
 | `Ontology-Lin-Rao` | 0-1 | Lin semantic similarity on the Cell Ontology |
